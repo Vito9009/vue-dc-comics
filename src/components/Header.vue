@@ -5,16 +5,16 @@
       </a>
 
       <ul class="my_navbar-container">
-          <li>Characters</li>
-          <li>Comics</li>
-          <li>Movies</li>
-          <li>TV</li>
-          <li>Games</li>
-          <li>Collectibles</li>
-          <li>Videos</li>
-          <li>Fans</li>
-          <li>News</li>
-          <li>Shop</li>
+          <li><a href="">Characters</a></li>
+          <li><a href="">Comics</a></li>
+          <li><a href="">Movies</a></li>
+          <li><a href="">TV</a></li>
+          <li><a href="">Games</a></li>
+          <li><a href="">Collectibles</a></li>
+          <li><a href="">Videos</a></li>
+          <li><a href="">Fans</a></li>
+          <li><a href="">News</a></li>
+          <li><a href="">Shop</a></li>
       </ul>
   </header>
 </template>
@@ -30,6 +30,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/my_scss/partials/variables.scss';
+
     header{
         widows: 100%;
         height: 150px;
@@ -62,6 +64,11 @@ export default {
                 align-items: center;
                 padding: 0 20px;
                 text-transform: uppercase;
+
+                a{
+                    text-decoration: none;
+                }
+                
             }
         }
     }
