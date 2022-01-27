@@ -22,12 +22,12 @@ export default {
         text-transform: uppercase;
         font-size: 15px;
         display: flex;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
 
 
         img{
-            height: 80px;
+            height: 60px;
             margin-right: 10px;
         }
     }

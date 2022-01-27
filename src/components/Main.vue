@@ -17,7 +17,7 @@ export default {
 <style lang="scss" scoped>
     .my_main-container{
         width: 100%;
-        height: 200px;
+        height: 500px;
         background-color: rgb(28, 28, 28);
 
         .main-provvisorio{

@@ -1,14 +1,12 @@
 <template>
   <div class="my_top-footer-container">
-      <div class="test">
+      <div class="sub-top-footer-container">
         <TopFooterComponents />
         <TopFooterComponents />
         <TopFooterComponents />
         <TopFooterComponents />
         <TopFooterComponents />
       </div>
-
-
   </div>
 </template>
 
@@ -28,18 +26,18 @@ export default {
 
     .my_top-footer-container{
         background-color: $blueComics;
-        height: 200px;
+        height: 150px;
         width: 100%;
-                display: flex;
+        display: flex;
         justify-content: center;
         align-items: center;
 
 
-        .test{
+        .sub-top-footer-container{
             width: 60%;
-                    display: flex;
-        justify-content: center;
-        align-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
         }
     }
