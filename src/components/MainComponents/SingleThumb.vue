@@ -16,13 +16,14 @@ export default {
 
 <style lang="scss" scoped>
     .my_thumb{
-        width: calc((100% / 6));
-        padding: 30px 0;
+        width: calc((100% / 6) - 10px);
+        margin: 20px 5px;
         text-align: center;
         
 
         img{
-            width: 80%;
+            width: 100%;
+            height: 100%;
         }
 
         h4{

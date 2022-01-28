@@ -30,7 +30,6 @@ export default {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin: 5px;
-        
+        margin: 5px;  
     }
 </style>
