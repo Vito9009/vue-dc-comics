@@ -1,6 +1,8 @@
 <template>
   <div class="my_thumb">
-      <img :src="multiinfo.thumb" :alt="multiinfo.series">
+      <div class="img-thumb-container">
+        <img :src="multiinfo.thumb" :alt="multiinfo.series">
+      </div>
       <h4>{{multiinfo.series}}</h4>
   </div>
 </template>
@@ -20,15 +22,21 @@ export default {
         margin: 20px 5px;
         text-align: center;
         
+        .img-thumb-container{
+            max-height: 200px;
+            overflow: hidden;
+            margin-bottom: 10px;
 
-        img{
-            width: 100%;
-            height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
         }
 
         h4{
             text-transform: uppercase;
-            font-size: 10px;
+            font-size: 12px;
+            word-wrap: break-word;
         }
     }
 </style>
