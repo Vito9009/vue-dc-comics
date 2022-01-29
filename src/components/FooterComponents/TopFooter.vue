@@ -1,12 +1,6 @@
 <template>
   <div class="my_top-footer-container">
-      <div class="sub-top-footer-container">
         <TopFooterComponents />
-        <TopFooterComponents />
-        <TopFooterComponents />
-        <TopFooterComponents />
-        <TopFooterComponents />
-      </div>
   </div>
 </template>
 
@@ -33,12 +27,6 @@ export default {
         align-items: center;
 
 
-        .sub-top-footer-container{
-            width: 60%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-        }
+       
     }
 </style>

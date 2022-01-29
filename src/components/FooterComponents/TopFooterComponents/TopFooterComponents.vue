@@ -1,7 +1,9 @@
 <template>
   <div class="buy-comics-container">
-      <img src="../../../assets/img/buy-comics-digital-comics.png" alt="">
-      <span>digital comics</span>
+    <div class="service-container" v-for="(element, index) in buydcproduct" :key="index">
+      <img :src="element.img" alt="">
+      <div>{{element.text}}</div>
+    </div>
   </div>
 </template>
 
@@ -10,6 +12,32 @@
 
 export default {
   name: 'TopFooterComponents',
+  data(){
+    return{
+      buydcproduct: [
+        {
+          img: require("../../../assets/img/buy-comics-digital-comics.png"),
+          text: 'digital comics'
+        },
+        {
+          img: require("../../../assets/img/buy-comics-merchandise.png"),
+          text: 'dc merchandise'
+        },
+        {
+          img: require("../../../assets/img/buy-comics-subscriptions.png"),
+          text: 'subscription'
+        },
+        {
+          img: require("../../../assets/img/buy-comics-shop-locator.png"),
+          text: 'comic shop locator'
+        },
+        {
+          img: require("../../../assets/img/buy-dc-power-visa.svg"),
+          text: 'dc power visa'
+        }                        
+      ]
+    }
+  },
   components: {
   }
 }
@@ -17,18 +45,18 @@ export default {
 
 <style lang="scss" scoped>
     .buy-comics-container{
-        width: calc(100% / 5);
+        width: 60%;
         color: rgb(255, 255, 255);
         text-transform: uppercase;
-        font-size: 15px;
+        font-size: 12px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-
+        text-align: center;
 
         img{
             height: 60px;
-            margin-right: 10px;
+            margin-bottom: 10px;
         }
     }
 </style>
