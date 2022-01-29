@@ -1,16 +1,18 @@
 <template>
   <div class="my_bottomfooter-container">
-      
+      <BottomFooterComponents />
   </div>
 
 </template>
 
 <script>
+import BottomFooterComponents from './BottomFooterComponents/BottomFooterComponents.vue'
 
 
 export default {
   name: 'BottomFooter',
   components: {
+    BottomFooterComponents
   }
 }
 </script>
