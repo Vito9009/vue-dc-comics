@@ -21,7 +21,7 @@ export default {
 @import '../../assets/my_scss/partials/variables.scss';
 
 .my_bottomfooter-container{
-  height: 150px;
+  height: 100px;
   width: 100%;
   background-color: rgb(48, 48, 48);
 }
