@@ -83,13 +83,13 @@ export default {
 @import '../assets/my_scss/partials/variables.scss';
 
     header{
-        widows: 100%;
         height: 150px;
         display: flex;
+        justify-content: space-around;
         background-color: rgb(255, 255, 255);
 
         .navbar-icon{
-            width: 35%;
+            width: 20%;
             height: 100%;
             display: flex;
             justify-content: center;
@@ -114,14 +114,13 @@ export default {
                 align-items: flex-end;
                 padding: 0 20px;
                 text-transform: uppercase;
+                font-size: 12px;
 
                 a{
                     text-decoration: none;
-                    height: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    height: 150px;
                     color: rgb(0, 0, 0);
+                    line-height: 150px;
 
                     &.active, &:hover{
                         border-bottom: 3px solid $blueComics;
