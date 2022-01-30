@@ -76,6 +76,8 @@ export default {
       .bottom-btn{
         margin-bottom: 50px;
         padding: 10px 30px;
+        cursor: pointer;
+
       }
     }
 

@@ -54,9 +54,14 @@ export default {
         align-items: center;
         text-align: center;
 
-        img{
-            height: 60px;
-            margin-bottom: 10px;
+        .service-container{
+          cursor: pointer;
+
+          img{
+              height: 60px;
+              margin-bottom: 10px;
+          }          
+
         }
     }
 </style>

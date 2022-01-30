@@ -21,6 +21,8 @@ export default {
         width: calc((100% / 6) - 10px);
         margin: 20px 5px;
         text-align: center;
+        cursor: pointer;
+
         
         .img-thumb-container{
             max-height: 200px;

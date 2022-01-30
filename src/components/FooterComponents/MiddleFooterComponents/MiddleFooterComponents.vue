@@ -169,6 +169,7 @@ export default {
                     list-style: none;
                     color: rgba(117, 149, 117, 0.8);
                     font-size: 9px;
+                    cursor: pointer;
                 }
             }
         }
